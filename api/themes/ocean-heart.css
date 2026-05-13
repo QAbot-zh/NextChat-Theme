@@ -1,3 +1,9 @@
+/* 全局生效的覆盖 */
+:root {
+
+}
+
+/* 主题色设置 */
 /* Ocean Heart */
 body.light {
   --white: #FFFFFF;

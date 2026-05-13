@@ -17,7 +17,8 @@ function toSlug(name) {
 }
 
 function buildCss(name, info) {
-  let css = `/* ${name} */\n`;
+  let css = `/* 全局生效的覆盖 */\n:root {\n\n}\n\n/* 主题色设置 */\n`;
+  css += `/* ${name} */\n`;
   ["light", "dark"].forEach((mode) => {
     css += `body.${mode} {\n`;
     Object.entries(info[mode]).forEach(([k, v]) => {

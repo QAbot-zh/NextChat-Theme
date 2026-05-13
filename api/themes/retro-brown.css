@@ -1,3 +1,9 @@
+/* 全局生效的覆盖 */
+:root {
+
+}
+
+/* 主题色设置 */
 /* Retro Brown */
 body.light {
   --white: #FFFFFF;

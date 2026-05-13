@@ -1,3 +1,9 @@
+/* 全局生效的覆盖 */
+:root {
+
+}
+
+/* 主题色设置 */
 /* Lavender Mist */
 body.light {
   --white: #FFFFFF;
