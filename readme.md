@@ -83,55 +83,34 @@ body.dark {
 
 ## 🔌 主题 API
 
-主题数据除了页面展示外，也以静态 JSON / CSS 形式开放给外部调用，方便 NextChat 客户端、其他网页或脚本直接拉取。
+所有主题以静态资源形式开放调用，全站 `/api/*` 已开启 CORS，任意来源可直接 `fetch`。
 
 **Base URL**: `https://nextchat-theme.pages.dev`
 
-所有 `/api/*` 路径均已开启全开放 CORS，任何来源都可以通过 `fetch` 跨域调用。
-
-### 接口列表
-
-| 方法 | 路径 | 用途 |
+| 方法 | 路径 | 返回 |
 | --- | --- | --- |
-| GET | `/api/themes.json` | 获取主题清单（名称 + 描述 + 预览图 + 资源链接） |
-| GET | `/api/themes/{slug}.css` | 获取单个主题的可直接使用的 CSS |
-| GET | `/api/themes/{slug}.json` | 获取单个主题的结构化数据（含 light / dark 变量） |
+| GET | `/api/themes.json` | 主题清单（名称、描述、预览图、资源链接） |
+| GET | `/api/themes/{slug}.css` | 单主题可直接使用的 CSS |
+| GET | `/api/themes/{slug}.json` | 单主题结构化数据（light / dark 变量） |
 
-### slug 规则
-
-主题名称转小写、空格替换为连字符。例如：
-
-- `Modern Minimal` → `modern-minimal`
-- `Ocean Heart` → `ocean-heart`
-
-### 调用示例
+**slug**：主题名小写并把空格替换为连字符，例如 `Modern Minimal` → `modern-minimal`。
 
 ```js
-// 1. 获取主题名称列表
-const themes = await fetch("https://nextchat-theme.pages.dev/api/themes.json")
-  .then(r => r.json());
-console.log(themes.map(t => t.name));
+// 列出全部主题
+const list = await fetch("https://nextchat-theme.pages.dev/api/themes.json").then(r => r.json());
 
-// 2. 获取指定主题的 CSS 文本
-const css = await fetch("https://nextchat-theme.pages.dev/api/themes/ocean-heart.css")
-  .then(r => r.text());
+// 拉取指定主题 CSS
+const css = await fetch("https://nextchat-theme.pages.dev/api/themes/ocean-heart.css").then(r => r.text());
 
-// 3. 直接当样式表挂载（无需 CORS）
-const link = document.createElement("link");
-link.rel = "stylesheet";
-link.href = "https://nextchat-theme.pages.dev/api/themes/ocean-heart.css";
+// 或直接当样式表挂载
+const link = Object.assign(document.createElement("link"), {
+  rel: "stylesheet",
+  href: "https://nextchat-theme.pages.dev/api/themes/ocean-heart.css",
+});
 document.head.appendChild(link);
 ```
 
-### 本地构建
-
-主题数据维护在 `themes.js`，修改后执行构建脚本即可重新生成 `api/` 目录：
-
-```bash
-npm run build
-# 或
-node build.js
-```
+修改 `themes.js` 后执行 `npm run build`（或 `node build.js`）即可重新生成 `api/` 目录。
 
 ---
 
