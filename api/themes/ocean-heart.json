@@ -1,0 +1,30 @@
+{
+  "name": "Ocean Heart",
+  "slug": "ocean-heart",
+  "desc": "来自海洋的静谧气氛，展现清新而沉稳的海蓝韵律。",
+  "img": "images/ocean-heart.png",
+  "light": {
+    "--white": "#FFFFFF",
+    "--black": "#1E2B45",
+    "--gray": "#EAF3F8",
+    "--primary": "#007B8A",
+    "--second": "#BEE9F9",
+    "--hover-color": "#D5EDF7",
+    "--bar-color": "rgba(0,123,138,0.1)",
+    "--theme-color": "var(--second)",
+    "--highlight": "#007B8A",
+    "--button": "#8CD0DF"
+  },
+  "dark": {
+    "--white": "#081720",
+    "--black": "#CADBE3",
+    "--gray": "#0D1F2B",
+    "--primary": "#26C5D4",
+    "--second": "#003F50",
+    "--hover-color": "#12434B",
+    "--bar-color": "rgba(38,197,212,0.12)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#26C5D4",
+    "--button": "#13626D"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Beach Sunset",
+  "slug": "beach-sunset",
+  "desc": "夕阳余晖，暖橙与柔黄交织出惬意的海岸情怀。",
+  "img": "images/beach-sunset.png",
+  "light": {
+    "--white": "#FFFFFF",
+    "--black": "#4A3E37",
+    "--gray": "#FFF8F3",
+    "--primary": "#FFAA47",
+    "--second": "#FFF4D9",
+    "--hover-color": "#FFF1CC",
+    "--bar-color": "rgba(255,170,71,0.1)",
+    "--theme-color": "var(--second)",
+    "--highlight": "#FFAA47",
+    "--button": "#FFD89F"
+  },
+  "dark": {
+    "--white": "#3B2E25",
+    "--black": "#EAD8C7",
+    "--gray": "#2E241E",
+    "--primary": "#FFD580",
+    "--second": "#3A2B1D",
+    "--hover-color": "#3D2E21",
+    "--bar-color": "rgba(255,213,128,0.1)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#FFD580",
+    "--button": "#B0843B"
+  }
+}

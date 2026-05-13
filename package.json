@@ -1,0 +1,9 @@
+{
+  "name": "nextchat-theme",
+  "private": true,
+  "version": "0.0.0",
+  "description": "NextChat 颜色主题库 - 构建脚本入口",
+  "scripts": {
+    "build": "node build.js"
+  }
+}

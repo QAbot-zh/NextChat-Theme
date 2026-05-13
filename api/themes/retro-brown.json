@@ -1,0 +1,30 @@
+{
+  "name": "Retro Brown",
+  "slug": "retro-brown",
+  "desc": "温暖沉稳的棕褐，带有怀旧和手工质感的韵味。",
+  "img": "images/retro-brown.png",
+  "light": {
+    "--white": "#FFFFFF",
+    "--black": "#392E2B",
+    "--gray": "#FAF7F4",
+    "--primary": "#9B5232",
+    "--second": "#FFF2E5",
+    "--hover-color": "#F6E7D9",
+    "--bar-color": "rgba(155,82,50,0.1)",
+    "--theme-color": "var(--second)",
+    "--highlight": "#9B5232",
+    "--button": "#CBB08A"
+  },
+  "dark": {
+    "--white": "#2E2722",
+    "--black": "#E8DDD1",
+    "--gray": "#1F1A17",
+    "--primary": "#C4783B",
+    "--second": "#3D2713",
+    "--hover-color": "#3F2B17",
+    "--bar-color": "rgba(196,120,59,0.1)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#C4783B",
+    "--button": "#9B6B3C"
+  }
+}

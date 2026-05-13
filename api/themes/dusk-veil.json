@@ -1,0 +1,30 @@
+{
+  "name": "Dusk Veil",
+  "slug": "dusk-veil",
+  "desc": "黄昏轻纱般的紫调，柔和优雅，带来宁静与神秘。",
+  "img": "images/dusk-veil.png",
+  "light": {
+    "--white": "#FFFFFF",
+    "--black": "#3E2F4E",
+    "--gray": "#F7F5F9",
+    "--primary": "#77477D",
+    "--second": "#F3EBF5",
+    "--hover-color": "#EDE6F0",
+    "--bar-color": "rgba(119,71,125,0.1)",
+    "--theme-color": "var(--second)",
+    "--highlight": "#9066A0",
+    "--button": "#C6A9D1"
+  },
+  "dark": {
+    "--white": "#2A1D34",
+    "--black": "#E6DCEE",
+    "--gray": "#1D1428",
+    "--primary": "#BA95C4",
+    "--second": "#3A2742",
+    "--hover-color": "#3C2945",
+    "--bar-color": "rgba(186,149,196,0.1)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#C5AACD",
+    "--button": "#8D679B"
+  }
+}

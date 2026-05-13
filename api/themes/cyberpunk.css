@@ -1,0 +1,27 @@
+/* Cyberpunk */
+body.light {
+  --white: #FFFFFF;
+  --black: #1B1B1B;
+  --gray: #F3F3F3;
+  --primary: #FF1A72;
+  --second: #FFD7E7;
+  --hover-color: #FFC0D6;
+  --bar-color: rgba(255,26,114,0.12);
+  --theme-color: var(--second);
+  --highlight: #FF1A72;
+  --button: #FF7CA6;
+}
+
+body.dark {
+  --white: #0A0B11;
+  --black: #E3E3E8;
+  --gray: #0C0C12;
+  --primary: #00DFFF;
+  --second: #0E2631;
+  --hover-color: #08121E;
+  --bar-color: rgba(0,223,255,0.1);
+  --theme-color: var(--gray);
+  --highlight: #00DFFF;
+  --button: #006D89;
+}
+

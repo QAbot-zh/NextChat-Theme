@@ -1,0 +1,27 @@
+/* Forest Whisper */
+body.light {
+  --white: #FFFFFF;
+  --black: #2D3B2D;
+  --gray: #EBF2EB;
+  --primary: #2C7A25;
+  --second: #D6EBD6;
+  --hover-color: #C9E4C9;
+  --bar-color: rgba(44,122,37,0.1);
+  --theme-color: var(--second);
+  --highlight: #2E8B2E;
+  --button: #A8D49D;
+}
+
+body.dark {
+  --white: #112214;
+  --black: #C1DAC0;
+  --gray: #152216;
+  --primary: #5FBA57;
+  --second: #1E3B20;
+  --hover-color: #24452B;
+  --bar-color: rgba(95,186,87,0.1);
+  --theme-color: var(--gray);
+  --highlight: #7DCC72;
+  --button: #356726;
+}
+

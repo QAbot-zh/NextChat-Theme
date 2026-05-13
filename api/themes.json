@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Modern Minimal",
+    "slug": "modern-minimal",
+    "desc": "以纯净白与深灰为主调，辅以鲜明的宝蓝色点缀，清爽视觉体验。",
+    "img": "images/modern-minimal.png",
+    "css": "/api/themes/modern-minimal.css",
+    "json": "/api/themes/modern-minimal.json"
+  },
+  {
+    "name": "Ocean Heart",
+    "slug": "ocean-heart",
+    "desc": "来自海洋的静谧气氛，展现清新而沉稳的海蓝韵律。",
+    "img": "images/ocean-heart.png",
+    "css": "/api/themes/ocean-heart.css",
+    "json": "/api/themes/ocean-heart.json"
+  },
+  {
+    "name": "Forest Whisper",
+    "slug": "forest-whisper",
+    "desc": "仿佛步入晨露森林，唤醒生机盎然的翠绿清香。",
+    "img": "images/forest-whisper.png",
+    "css": "/api/themes/forest-whisper.css",
+    "json": "/api/themes/forest-whisper.json"
+  },
+  {
+    "name": "Sunrise Glow",
+    "slug": "sunrise-glow",
+    "desc": "捕捉初升朝阳的柔光，温暖且充满希望的晨曦色彩。",
+    "img": "images/sunrise-glow.png",
+    "css": "/api/themes/sunrise-glow.css",
+    "json": "/api/themes/sunrise-glow.json"
+  },
+  {
+    "name": "Dusk Veil",
+    "slug": "dusk-veil",
+    "desc": "黄昏轻纱般的紫调，柔和优雅，带来宁静与神秘。",
+    "img": "images/dusk-veil.png",
+    "css": "/api/themes/dusk-veil.css",
+    "json": "/api/themes/dusk-veil.json"
+  },
+  {
+    "name": "Neon Pulse",
+    "slug": "neon-pulse",
+    "desc": "霓虹律动的光芒，炫彩夺目，充满未来科技感。",
+    "img": "images/neon-pulse.png",
+    "css": "/api/themes/neon-pulse.css",
+    "json": "/api/themes/neon-pulse.json"
+  },
+  {
+    "name": "Retro Brown",
+    "slug": "retro-brown",
+    "desc": "温暖沉稳的棕褐，带有怀旧和手工质感的韵味。",
+    "img": "images/retro-brown.png",
+    "css": "/api/themes/retro-brown.css",
+    "json": "/api/themes/retro-brown.json"
+  },
+  {
+    "name": "Lavender Mist",
+    "slug": "lavender-mist",
+    "desc": "柔和薰衣草紫，弥漫浪漫与梦幻的气息。",
+    "img": "images/lavender-mist.png",
+    "css": "/api/themes/lavender-mist.css",
+    "json": "/api/themes/lavender-mist.json"
+  },
+  {
+    "name": "Beach Sunset",
+    "slug": "beach-sunset",
+    "desc": "夕阳余晖，暖橙与柔黄交织出惬意的海岸情怀。",
+    "img": "images/beach-sunset.png",
+    "css": "/api/themes/beach-sunset.css",
+    "json": "/api/themes/beach-sunset.json"
+  },
+  {
+    "name": "Cyberpunk",
+    "slug": "cyberpunk",
+    "desc": "电光霓虹冲击感，交织未来都市的脉动活力。",
+    "img": "images/cyberpunk.png",
+    "css": "/api/themes/cyberpunk.css",
+    "json": "/api/themes/cyberpunk.json"
+  },
+  {
+    "name": "Nordic Minimal",
+    "slug": "nordic-minimal",
+    "desc": "北欧简洁纯净，传递安静、理性与现代感。",
+    "img": "images/nordic-minimal.png",
+    "css": "/api/themes/nordic-minimal.css",
+    "json": "/api/themes/nordic-minimal.json"
+  }
+]

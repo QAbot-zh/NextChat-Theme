@@ -1,0 +1,30 @@
+{
+  "name": "Lavender Mist",
+  "slug": "lavender-mist",
+  "desc": "柔和薰衣草紫，弥漫浪漫与梦幻的气息。",
+  "img": "images/lavender-mist.png",
+  "light": {
+    "--white": "#FFFFFF",
+    "--black": "#3A3552",
+    "--gray": "#F8F6FB",
+    "--primary": "#A67EB8",
+    "--second": "#F5F0F8",
+    "--hover-color": "#EFEAF6",
+    "--bar-color": "rgba(166,126,184,0.1)",
+    "--theme-color": "var(--second)",
+    "--highlight": "#A67EB8",
+    "--button": "#D0B9DC"
+  },
+  "dark": {
+    "--white": "#2E2B42",
+    "--black": "#E1D9EB",
+    "--gray": "#1D1B2D",
+    "--primary": "#CCAAE3",
+    "--second": "#31284A",
+    "--hover-color": "#372F54",
+    "--bar-color": "rgba(204,170,227,0.1)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#CCAAE3",
+    "--button": "#655192"
+  }
+}

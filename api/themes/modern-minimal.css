@@ -1,0 +1,27 @@
+/* Modern Minimal */
+body.light {
+  --white: #FFFFFF;
+  --black: #303030;
+  --gray: #FAFAFA;
+  --primary: #4A72F8;
+  --second: #F3F3F6;
+  --hover-color: #f3f3f3;
+  --bar-color: rgba(52,152,219,0.1);
+  --theme-color: var(--second);
+  --highlight: #3498DB;
+  --button: #85C1FF;
+}
+
+body.dark {
+  --white: #1E1E1E;
+  --black: #BBBBBB;
+  --gray: #151515;
+  --primary: #4A72F8;
+  --second: #26262C;
+  --hover-color: #323232;
+  --bar-color: rgba(93,173,226,0.12);
+  --theme-color: var(--gray);
+  --highlight: #5DADE2;
+  --button: #1F618D;
+}
+

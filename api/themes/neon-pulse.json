@@ -1,0 +1,30 @@
+{
+  "name": "Neon Pulse",
+  "slug": "neon-pulse",
+  "desc": "霓虹律动的光芒，炫彩夺目，充满未来科技感。",
+  "img": "images/neon-pulse.png",
+  "light": {
+    "--white": "#FFFFFF",
+    "--black": "#1A1818",
+    "--gray": "#F9F9F9",
+    "--primary": "#E600FF",
+    "--second": "#FFD6FF",
+    "--hover-color": "#F0BBFF",
+    "--bar-color": "rgba(230,0,255,0.12)",
+    "--theme-color": "var(--second)",
+    "--highlight": "#E600FF",
+    "--button": "#FF8CFF"
+  },
+  "dark": {
+    "--white": "#0B0A0B",
+    "--black": "#E8E8E8",
+    "--gray": "#0A0A0A",
+    "--primary": "#00FFD6",
+    "--second": "#1D0026",
+    "--hover-color": "#1B0030",
+    "--bar-color": "rgba(0,255,214,0.12)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#00FFD6",
+    "--button": "#008066"
+  }
+}

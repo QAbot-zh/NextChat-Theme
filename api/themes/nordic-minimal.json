@@ -1,0 +1,30 @@
+{
+  "name": "Nordic Minimal",
+  "slug": "nordic-minimal",
+  "desc": "北欧简洁纯净，传递安静、理性与现代感。",
+  "img": "images/nordic-minimal.png",
+  "light": {
+    "--white": "#FFFFFF",
+    "--black": "#313131",
+    "--gray": "#F6F6F6",
+    "--primary": "#1A7AE5",
+    "--second": "#E6EEFC",
+    "--hover-color": "#DCE7FA",
+    "--bar-color": "rgba(26,122,229,0.1)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#1A7AE5",
+    "--button": "#A3C4FC"
+  },
+  "dark": {
+    "--white": "#181B1C",
+    "--black": "#E6E9EC",
+    "--gray": "#111214",
+    "--primary": "#7CA9F8",
+    "--second": "#1F2225",
+    "--hover-color": "#2B2E31",
+    "--bar-color": "rgba(124,169,248,0.1)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#7CA9F8",
+    "--button": "#5B6065"
+  }
+}
