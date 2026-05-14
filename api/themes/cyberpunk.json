@@ -12,7 +12,7 @@
     "--hover-color": "#FFC0D6",
     "--bar-color": "rgba(255,26,114,0.12)",
     "--theme-color": "var(--second)",
-    "--highlight": "#FF1A72",
+    "--highlight": "#FF4D8E",
     "--button": "#FF7CA6"
   },
   "dark": {
@@ -21,10 +21,10 @@
     "--gray": "#0C0C12",
     "--primary": "#00DFFF",
     "--second": "#0E2631",
-    "--hover-color": "#08121E",
+    "--hover-color": "#15384B",
     "--bar-color": "rgba(0,223,255,0.1)",
     "--theme-color": "var(--gray)",
-    "--highlight": "#00DFFF",
+    "--highlight": "#4DECFF",
     "--button": "#006D89"
   }
 }

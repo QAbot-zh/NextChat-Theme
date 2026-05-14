@@ -1,0 +1,30 @@
+{
+  "name": "Ink Wash",
+  "slug": "ink-wash",
+  "desc": "宣纸墨韵，黑白灰间一抹青墨，写意东方禅境。",
+  "img": "images/ink-wash.png",
+  "light": {
+    "--white": "#FBFBF8",
+    "--black": "#1A1A1A",
+    "--gray": "#F0EFEA",
+    "--primary": "#2C3E50",
+    "--second": "#E8E7E1",
+    "--hover-color": "#DBD9D1",
+    "--bar-color": "rgba(44,62,80,0.1)",
+    "--theme-color": "var(--second)",
+    "--highlight": "#4A6680",
+    "--button": "#8FA0B0"
+  },
+  "dark": {
+    "--white": "#1A1A1A",
+    "--black": "#D4D2CB",
+    "--gray": "#0F0F0F",
+    "--primary": "#7B9BB8",
+    "--second": "#252523",
+    "--hover-color": "#2F2F2D",
+    "--bar-color": "rgba(123,155,184,0.12)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#A0B8CC",
+    "--button": "#4A5868"
+  }
+}

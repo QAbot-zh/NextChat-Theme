@@ -1,0 +1,30 @@
+{
+  "name": "Sakura Bloom",
+  "slug": "sakura-bloom",
+  "desc": "春日樱花初绽，柔粉与莹白交融，浪漫且治愈。",
+  "img": "images/sakura-bloom.png",
+  "light": {
+    "--white": "#FFFCFD",
+    "--black": "#4A2F3A",
+    "--gray": "#FFF4F7",
+    "--primary": "#E89DB0",
+    "--second": "#FCE4EC",
+    "--hover-color": "#F8D2DD",
+    "--bar-color": "rgba(232,157,176,0.1)",
+    "--theme-color": "var(--second)",
+    "--highlight": "#F2B5C4",
+    "--button": "#F4C7D2"
+  },
+  "dark": {
+    "--white": "#2A1C22",
+    "--black": "#F5DCE3",
+    "--gray": "#1E1419",
+    "--primary": "#F2B5C4",
+    "--second": "#3A2530",
+    "--hover-color": "#442B38",
+    "--bar-color": "rgba(242,181,196,0.12)",
+    "--theme-color": "var(--gray)",
+    "--highlight": "#FACAD6",
+    "--button": "#8C5468"
+  }
+}

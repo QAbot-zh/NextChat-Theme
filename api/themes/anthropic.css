@@ -1,0 +1,33 @@
+/* 全局生效的覆盖 */
+:root {
+
+}
+
+/* 主题色设置 */
+/* Anthropic */
+body.light {
+  --white: #FAF9F5;
+  --black: #2C2B29;
+  --gray: #F0EEE6;
+  --primary: #C96442;
+  --second: #EBE5D6;
+  --hover-color: #DDD5BF;
+  --bar-color: rgba(201,100,66,0.1);
+  --theme-color: var(--second);
+  --highlight: #D97757;
+  --button: #E5B89C;
+}
+
+body.dark {
+  --white: #262624;
+  --black: #E8E6DC;
+  --gray: #1F1E1C;
+  --primary: #D97757;
+  --second: #30302E;
+  --hover-color: #3A3935;
+  --bar-color: rgba(217,119,87,0.12);
+  --theme-color: var(--gray);
+  --highlight: #E89980;
+  --button: #8B4F38;
+}
+

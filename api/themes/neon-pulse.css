@@ -14,7 +14,7 @@ body.light {
   --hover-color: #F0BBFF;
   --bar-color: rgba(230,0,255,0.12);
   --theme-color: var(--second);
-  --highlight: #E600FF;
+  --highlight: #FF4DFF;
   --button: #FF8CFF;
 }
 
@@ -27,7 +27,7 @@ body.dark {
   --hover-color: #1B0030;
   --bar-color: rgba(0,255,214,0.12);
   --theme-color: var(--gray);
-  --highlight: #00FFD6;
+  --highlight: #33FFE0;
   --button: #008066;
 }
 

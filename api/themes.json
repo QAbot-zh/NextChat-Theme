@@ -86,5 +86,53 @@
     "img": "images/nordic-minimal.png",
     "css": "/api/themes/nordic-minimal.css",
     "json": "/api/themes/nordic-minimal.json"
+  },
+  {
+    "name": "Anthropic",
+    "slug": "anthropic",
+    "desc": "灵感源自 Anthropic / Claude 的暖色调，米黄底配复古橙赭，温润静雅。",
+    "img": "images/anthropic.png",
+    "css": "/api/themes/anthropic.css",
+    "json": "/api/themes/anthropic.json"
+  },
+  {
+    "name": "Sakura Bloom",
+    "slug": "sakura-bloom",
+    "desc": "春日樱花初绽，柔粉与莹白交融，浪漫且治愈。",
+    "img": "images/sakura-bloom.png",
+    "css": "/api/themes/sakura-bloom.css",
+    "json": "/api/themes/sakura-bloom.json"
+  },
+  {
+    "name": "Tokyo Night",
+    "slug": "tokyo-night",
+    "desc": "灵感源自东京夜景，深邃蓝紫交织点点星光，沉静专注。",
+    "img": "images/tokyo-night.png",
+    "css": "/api/themes/tokyo-night.css",
+    "json": "/api/themes/tokyo-night.json"
+  },
+  {
+    "name": "Catppuccin Mocha",
+    "slug": "catppuccin-mocha",
+    "desc": "广受开发者喜爱的柔和紫粉调，护眼且具辨识度。",
+    "img": "images/catppuccin-mocha.png",
+    "css": "/api/themes/catppuccin-mocha.css",
+    "json": "/api/themes/catppuccin-mocha.json"
+  },
+  {
+    "name": "Ink Wash",
+    "slug": "ink-wash",
+    "desc": "宣纸墨韵，黑白灰间一抹青墨，写意东方禅境。",
+    "img": "images/ink-wash.png",
+    "css": "/api/themes/ink-wash.css",
+    "json": "/api/themes/ink-wash.json"
+  },
+  {
+    "name": "Eye Care",
+    "slug": "eye-care",
+    "desc": "经典豆沙绿护眼配色，柔和不刺眼，长时间阅读更舒适。",
+    "img": "images/eye-care.png",
+    "css": "/api/themes/eye-care.css",
+    "json": "/api/themes/eye-care.json"
   }
 ]

@@ -9,10 +9,10 @@
     "--gray": "#EAF3F8",
     "--primary": "#007B8A",
     "--second": "#BEE9F9",
-    "--hover-color": "#D5EDF7",
+    "--hover-color": "#A8DFEF",
     "--bar-color": "rgba(0,123,138,0.1)",
     "--theme-color": "var(--second)",
-    "--highlight": "#007B8A",
+    "--highlight": "#0FAEBE",
     "--button": "#8CD0DF"
   },
   "dark": {
@@ -21,10 +21,10 @@
     "--gray": "#0D1F2B",
     "--primary": "#26C5D4",
     "--second": "#003F50",
-    "--hover-color": "#12434B",
+    "--hover-color": "#125464",
     "--bar-color": "rgba(38,197,212,0.12)",
     "--theme-color": "var(--gray)",
-    "--highlight": "#26C5D4",
-    "--button": "#13626D"
+    "--highlight": "#5EE0EC",
+    "--button": "#1D8593"
   }
 }

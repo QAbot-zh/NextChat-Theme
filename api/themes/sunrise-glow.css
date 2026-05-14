@@ -11,10 +11,10 @@ body.light {
   --gray: #FFF4F0;
   --primary: #FF7965;
   --second: #FFCCC3;
-  --hover-color: #FFE1D9;
+  --hover-color: #FFBBAA;
   --bar-color: rgba(255,121,101,0.1);
   --theme-color: var(--second);
-  --highlight: #FF7965;
+  --highlight: #FF9870;
   --button: #FFA698;
 }
 
@@ -24,10 +24,10 @@ body.dark {
   --gray: #2B1817;
   --primary: #FF9D87;
   --second: #4A2E2B;
-  --hover-color: #4C2F2C;
+  --hover-color: #5A3633;
   --bar-color: rgba(255,157,135,0.1);
   --theme-color: var(--gray);
-  --highlight: #FF9D87;
+  --highlight: #FFB59F;
   --button: #A04E48;
 }
 

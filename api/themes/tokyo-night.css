@@ -1,0 +1,33 @@
+/* 全局生效的覆盖 */
+:root {
+
+}
+
+/* 主题色设置 */
+/* Tokyo Night */
+body.light {
+  --white: #E1E2E7;
+  --black: #2E3043;
+  --gray: #D5D6DB;
+  --primary: #2E7DE9;
+  --second: #C4C8DA;
+  --hover-color: #B7BCD1;
+  --bar-color: rgba(46,125,233,0.1);
+  --theme-color: var(--second);
+  --highlight: #7AA2F7;
+  --button: #9CB0F7;
+}
+
+body.dark {
+  --white: #1A1B26;
+  --black: #C0CAF5;
+  --gray: #16161E;
+  --primary: #7AA2F7;
+  --second: #24283B;
+  --hover-color: #2F334D;
+  --bar-color: rgba(122,162,247,0.12);
+  --theme-color: var(--gray);
+  --highlight: #BB9AF7;
+  --button: #3D59A1;
+}
+

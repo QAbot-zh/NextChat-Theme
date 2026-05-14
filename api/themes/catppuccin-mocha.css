@@ -1,0 +1,33 @@
+/* 全局生效的覆盖 */
+:root {
+
+}
+
+/* 主题色设置 */
+/* Catppuccin Mocha */
+body.light {
+  --white: #EFF1F5;
+  --black: #4C4F69;
+  --gray: #E6E9EF;
+  --primary: #8839EF;
+  --second: #DCE0E8;
+  --hover-color: #CCD0DA;
+  --bar-color: rgba(136,57,239,0.1);
+  --theme-color: var(--second);
+  --highlight: #EA76CB;
+  --button: #B4A1E0;
+}
+
+body.dark {
+  --white: #1E1E2E;
+  --black: #CDD6F4;
+  --gray: #181825;
+  --primary: #CBA6F7;
+  --second: #313244;
+  --hover-color: #45475A;
+  --bar-color: rgba(203,166,247,0.12);
+  --theme-color: var(--gray);
+  --highlight: #F5C2E7;
+  --button: #6C5A92;
+}
+

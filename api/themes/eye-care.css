@@ -1,0 +1,33 @@
+/* 全局生效的覆盖 */
+:root {
+
+}
+
+/* 主题色设置 */
+/* Eye Care */
+body.light {
+  --white: #E8F0DC;
+  --black: #3A4738;
+  --gray: #DDE8CE;
+  --primary: #6B8E5A;
+  --second: #D2E0BD;
+  --hover-color: #C5D6AC;
+  --bar-color: rgba(107,142,90,0.1);
+  --theme-color: var(--second);
+  --highlight: #82A872;
+  --button: #B0C99B;
+}
+
+body.dark {
+  --white: #1F2A1E;
+  --black: #D8E0CC;
+  --gray: #19211A;
+  --primary: #94B883;
+  --second: #2A3527;
+  --hover-color: #33402E;
+  --bar-color: rgba(148,184,131,0.12);
+  --theme-color: var(--gray);
+  --highlight: #ACCB9C;
+  --button: #506E45;
+}
+
